@@ -1,0 +1,931 @@
+[
+  {
+    "id": "1",
+    "title": "Spanish for Beginners",
+    "language": "Spanish",
+    "languageCode": "es",
+    "flag": "🇪🇸",
+    "level": "Beginner",
+    "format": "Live",
+    "description": "Master the fundamentals of Spanish in an interactive live setting. Learn to hold everyday conversations, build core vocabulary, and develop correct pronunciation with native speaker guidance.",
+    "price": 149,
+    "rating": 4.8,
+    "reviewCount": 312,
+    "sessionCount": 12,
+    "hasMaterials": true,
+    "hasCertificate": true,
+    "featured": true,
+    "instructor": {
+      "name": "María González",
+      "title": "Native Spanish Speaker & Certified DELE Examiner"
+    },
+    "schedule": {
+      "days": ["Mon", "Wed"],
+      "time": "7:00 PM EST",
+      "startDate": "2026-07-07"
+    },
+    "packages": [
+      {
+        "id": "self-study",
+        "name": "Self-Study",
+        "price": 79,
+        "description": "Learn at your own pace with full recorded access",
+        "features": ["Full recorded session access", "PDF study materials", "Community forum", "3-month access"]
+      },
+      {
+        "id": "group",
+        "name": "Group",
+        "price": 149,
+        "description": "Live sessions with a small group of learners",
+        "features": ["Everything in Self-Study", "Live group sessions (2×/week)", "Certificate of completion", "Instructor Q&A", "1-year access"],
+        "popular": true
+      },
+      {
+        "id": "intensive",
+        "name": "Intensive",
+        "price": 279,
+        "description": "Accelerated learning with personal coaching",
+        "features": ["Everything in Group", "3 private 1-on-1 sessions", "Personalized feedback", "Lifetime access", "Priority support"]
+      }
+    ],
+    "reviews": [
+      { "name": "Alex T.", "rating": 5, "text": "María is an exceptional teacher. My Spanish improved dramatically in just 6 weeks." },
+      { "name": "Sarah K.", "rating": 5, "text": "The structured approach made learning feel natural and fun." }
+    ],
+    "createdAt": "2026-01-10"
+  },
+  {
+    "id": "2",
+    "title": "French Conversation Mastery",
+    "language": "French",
+    "languageCode": "fr",
+    "flag": "🇫🇷",
+    "level": "Intermediate",
+    "format": "Live + Recorded",
+    "description": "Take your French from textbook-level to confident conversation. Focus on real-world dialogue, idiomatic expressions, and cultural nuance with an emphasis on speaking and listening.",
+    "price": 189,
+    "rating": 4.9,
+    "reviewCount": 198,
+    "sessionCount": 10,
+    "hasMaterials": true,
+    "hasCertificate": true,
+    "featured": true,
+    "instructor": {
+      "name": "Julien Moreau",
+      "title": "Paris-born French instructor with 8 years of teaching experience"
+    },
+    "schedule": {
+      "days": ["Tue", "Thu"],
+      "time": "6:30 PM EST",
+      "startDate": "2026-07-08"
+    },
+    "packages": [
+      {
+        "id": "self-study",
+        "name": "Self-Study",
+        "price": 99,
+        "description": "Learn at your own pace with full recorded access",
+        "features": ["Full recorded session access", "PDF study materials", "Community forum", "3-month access"]
+      },
+      {
+        "id": "group",
+        "name": "Group",
+        "price": 189,
+        "description": "Live sessions with a small group of learners",
+        "features": ["Everything in Self-Study", "Live group sessions (2×/week)", "Certificate of completion", "Instructor Q&A", "1-year access"],
+        "popular": true
+      },
+      {
+        "id": "intensive",
+        "name": "Intensive",
+        "price": 349,
+        "description": "Accelerated learning with personal coaching",
+        "features": ["Everything in Group", "3 private 1-on-1 sessions", "Personalized feedback", "Lifetime access", "Priority support"]
+      }
+    ],
+    "reviews": [
+      { "name": "Emma R.", "rating": 5, "text": "Julien's approach to conversation is unlike any other course I've taken." },
+      { "name": "Mike D.", "rating": 4, "text": "Great content. The recorded sessions are a lifesaver for busy weeks." }
+    ],
+    "createdAt": "2026-02-01"
+  },
+  {
+    "id": "3",
+    "title": "Japanese for Daily Life",
+    "language": "Japanese",
+    "languageCode": "ja",
+    "flag": "🇯🇵",
+    "level": "Beginner",
+    "format": "Recorded",
+    "description": "Start your Japanese journey with hiragana, katakana, and the 500 most useful words. Practical lessons organized around real scenarios: restaurants, transit, shopping, and social settings.",
+    "price": 99,
+    "rating": 4.7,
+    "reviewCount": 445,
+    "sessionCount": 16,
+    "hasMaterials": true,
+    "hasCertificate": false,
+    "featured": true,
+    "instructor": {
+      "name": "Yuki Tanaka",
+      "title": "Tokyo-based language educator and JLPT N1 certified instructor"
+    },
+    "schedule": {
+      "days": [],
+      "time": "Self-paced",
+      "startDate": "2026-07-01"
+    },
+    "packages": [
+      {
+        "id": "self-study",
+        "name": "Self-Study",
+        "price": 49,
+        "description": "Core recorded content with 3-month access",
+        "features": ["Full recorded session access", "PDF study materials", "Community forum", "3-month access"]
+      },
+      {
+        "id": "group",
+        "name": "Standard",
+        "price": 99,
+        "description": "Lifetime access with downloadable materials",
+        "features": ["Everything in Self-Study", "Lifetime access", "Downloadable offline content", "Practice worksheets"],
+        "popular": true
+      },
+      {
+        "id": "intensive",
+        "name": "Premium",
+        "price": 189,
+        "description": "Lifetime access plus live feedback sessions",
+        "features": ["Everything in Standard", "2 live group feedback sessions", "Written assignment review", "Priority support"]
+      }
+    ],
+    "reviews": [
+      { "name": "Chris P.", "rating": 5, "text": "I finally understand hiragana after struggling with other resources for months." },
+      { "name": "Lily M.", "rating": 4, "text": "Very well structured. Yuki explains the logic behind the language beautifully." }
+    ],
+    "createdAt": "2026-01-20"
+  },
+  {
+    "id": "4",
+    "title": "Modern Standard Arabic",
+    "language": "Arabic",
+    "languageCode": "ar",
+    "flag": "🇸🇦",
+    "level": "Beginner",
+    "format": "Live",
+    "description": "Learn Modern Standard Arabic — the written and formal spoken form used across 22 countries. Build a strong grammatical foundation, master the Arabic script, and develop confident pronunciation.",
+    "price": 169,
+    "rating": 4.6,
+    "reviewCount": 127,
+    "sessionCount": 14,
+    "hasMaterials": true,
+    "hasCertificate": true,
+    "featured": true,
+    "instructor": {
+      "name": "Ahmed Al-Rashid",
+      "title": "Arabic linguist and cultural educator with Al-Azhar University credentials"
+    },
+    "schedule": {
+      "days": ["Sat", "Sun"],
+      "time": "10:00 AM EST",
+      "startDate": "2026-07-05"
+    },
+    "packages": [
+      {
+        "id": "self-study",
+        "name": "Self-Study",
+        "price": 89,
+        "description": "Learn at your own pace with full recorded access",
+        "features": ["Full recorded session access", "PDF study materials", "Community forum", "3-month access"]
+      },
+      {
+        "id": "group",
+        "name": "Group",
+        "price": 169,
+        "description": "Live sessions with a small group of learners",
+        "features": ["Everything in Self-Study", "Live group sessions (2×/week)", "Certificate of completion", "Instructor Q&A", "1-year access"],
+        "popular": true
+      },
+      {
+        "id": "intensive",
+        "name": "Intensive",
+        "price": 319,
+        "description": "Accelerated learning with personal coaching",
+        "features": ["Everything in Group", "3 private 1-on-1 sessions", "Personalized feedback", "Lifetime access", "Priority support"]
+      }
+    ],
+    "reviews": [
+      { "name": "James F.", "rating": 5, "text": "Ahmed makes Arabic script feel approachable. I can already read simple words." },
+      { "name": "Nina S.", "rating": 4, "text": "The cultural context Ahmed provides adds so much richness to the learning." }
+    ],
+    "createdAt": "2026-02-15"
+  },
+  {
+    "id": "5",
+    "title": "Advanced Spanish Literature",
+    "language": "Spanish",
+    "languageCode": "es",
+    "flag": "🇪🇸",
+    "level": "Advanced",
+    "format": "Live + Recorded",
+    "description": "Explore Spanish literature from García Márquez to contemporary voices. Sharpen reading comprehension, expand literary vocabulary, and participate in rich academic discussions.",
+    "price": 229,
+    "rating": 4.9,
+    "reviewCount": 89,
+    "sessionCount": 8,
+    "hasMaterials": true,
+    "hasCertificate": true,
+    "featured": false,
+    "instructor": {
+      "name": "Isabel Vega",
+      "title": "PhD in Hispanoamerican Literature, Universidad de Barcelona"
+    },
+    "schedule": {
+      "days": ["Fri"],
+      "time": "5:00 PM EST",
+      "startDate": "2026-07-10"
+    },
+    "packages": [
+      {
+        "id": "self-study",
+        "name": "Self-Study",
+        "price": 119,
+        "description": "Learn at your own pace with full recorded access",
+        "features": ["Full recorded session access", "PDF study materials", "Reading list PDFs", "3-month access"]
+      },
+      {
+        "id": "group",
+        "name": "Group",
+        "price": 229,
+        "description": "Live seminars with a small cohort of learners",
+        "features": ["Everything in Self-Study", "Live weekly seminars", "Certificate of completion", "Essay feedback", "1-year access"],
+        "popular": true
+      },
+      {
+        "id": "intensive",
+        "name": "Intensive",
+        "price": 429,
+        "description": "Deep immersion with personalized academic coaching",
+        "features": ["Everything in Group", "3 private academic sessions", "Research paper review", "Lifetime access", "Priority support"]
+      }
+    ],
+    "reviews": [
+      { "name": "Clara R.", "rating": 5, "text": "Isabel's passion for literature is infectious. The most intellectually stimulating course I've taken." }
+    ],
+    "createdAt": "2026-03-01"
+  },
+  {
+    "id": "6",
+    "title": "Business French",
+    "language": "French",
+    "languageCode": "fr",
+    "flag": "🇫🇷",
+    "level": "Intermediate",
+    "format": "Live",
+    "description": "French for the professional world — emails, meetings, negotiations, and presentations. Designed for professionals who need French for international business contexts.",
+    "price": 249,
+    "rating": 4.8,
+    "reviewCount": 156,
+    "sessionCount": 10,
+    "hasMaterials": true,
+    "hasCertificate": true,
+    "featured": false,
+    "instructor": {
+      "name": "Claire Dubois",
+      "title": "Former EU translator and corporate French trainer"
+    },
+    "schedule": {
+      "days": ["Mon", "Thu"],
+      "time": "8:00 AM EST",
+      "startDate": "2026-07-07"
+    },
+    "packages": [
+      {
+        "id": "self-study",
+        "name": "Self-Study",
+        "price": 129,
+        "description": "Recorded lessons and professional reference materials",
+        "features": ["Full recorded session access", "Business French phrasebook PDF", "Email templates", "3-month access"]
+      },
+      {
+        "id": "group",
+        "name": "Group",
+        "price": 249,
+        "description": "Live professional sessions with small cohort",
+        "features": ["Everything in Self-Study", "Live group sessions (2×/week)", "Certificate of completion", "Role-play exercises", "1-year access"],
+        "popular": true
+      },
+      {
+        "id": "intensive",
+        "name": "Intensive",
+        "price": 469,
+        "description": "Executive coaching for fast business results",
+        "features": ["Everything in Group", "4 private coaching sessions", "LinkedIn bio review in French", "Lifetime access", "Priority support"]
+      }
+    ],
+    "reviews": [
+      { "name": "Robert M.", "rating": 5, "text": "Exactly what I needed before my Paris assignment. Claire is brilliant." }
+    ],
+    "createdAt": "2026-02-20"
+  },
+  {
+    "id": "7",
+    "title": "Japanese JLPT N5 Prep",
+    "language": "Japanese",
+    "languageCode": "ja",
+    "flag": "🇯🇵",
+    "level": "Beginner",
+    "format": "Recorded",
+    "description": "Comprehensive preparation for the JLPT N5 exam. Covers all required kanji, vocabulary, and grammar patterns with exam-style practice questions and full mock tests.",
+    "price": 79,
+    "rating": 4.8,
+    "reviewCount": 267,
+    "sessionCount": 20,
+    "hasMaterials": true,
+    "hasCertificate": false,
+    "featured": false,
+    "instructor": {
+      "name": "Kenji Nakamura",
+      "title": "JLPT examiner and Japanese language school director in Osaka"
+    },
+    "schedule": {
+      "days": [],
+      "time": "Self-paced",
+      "startDate": "2026-07-01"
+    },
+    "packages": [
+      {
+        "id": "self-study",
+        "name": "Self-Study",
+        "price": 39,
+        "description": "Core exam prep with 3-month access",
+        "features": ["Full recorded course access", "Kanji & vocabulary lists", "5 mock exams", "3-month access"]
+      },
+      {
+        "id": "group",
+        "name": "Standard",
+        "price": 79,
+        "description": "Complete prep package with lifetime access",
+        "features": ["Everything in Self-Study", "Lifetime access", "Printable flashcard decks", "Progress tracker"],
+        "popular": true
+      },
+      {
+        "id": "intensive",
+        "name": "Premium",
+        "price": 149,
+        "description": "Full prep with live group review sessions",
+        "features": ["Everything in Standard", "2 live group exam review sessions", "Personalized weak-area report", "Priority support"]
+      }
+    ],
+    "reviews": [
+      { "name": "Tom H.", "rating": 5, "text": "Passed N5 on my first try. Kenji's mock tests were almost identical to the real exam." }
+    ],
+    "createdAt": "2026-01-05"
+  },
+  {
+    "id": "8",
+    "title": "Egyptian Arabic (Colloquial)",
+    "language": "Arabic",
+    "languageCode": "ar",
+    "flag": "🇪🇬",
+    "level": "Beginner",
+    "format": "Live + Recorded",
+    "description": "Learn the Arabic dialect spoken by 100 million people. Practical, conversational focus — ordering food, navigating neighborhoods, making friends. No prior Arabic knowledge needed.",
+    "price": 139,
+    "rating": 4.7,
+    "reviewCount": 203,
+    "sessionCount": 12,
+    "hasMaterials": false,
+    "hasCertificate": false,
+    "featured": false,
+    "instructor": {
+      "name": "Nadia Hassan",
+      "title": "Cairo native, Arabic dialect specialist and former BBC translator"
+    },
+    "schedule": {
+      "days": ["Wed", "Sat"],
+      "time": "11:00 AM EST",
+      "startDate": "2026-07-09"
+    },
+    "packages": [
+      {
+        "id": "self-study",
+        "name": "Self-Study",
+        "price": 69,
+        "description": "Recorded colloquial lessons at your own pace",
+        "features": ["Full recorded session access", "Phrase guide PDF", "Community forum", "3-month access"]
+      },
+      {
+        "id": "group",
+        "name": "Group",
+        "price": 139,
+        "description": "Live conversation practice with small group",
+        "features": ["Everything in Self-Study", "Live group sessions (2×/week)", "Conversation recordings", "1-year access"],
+        "popular": true
+      },
+      {
+        "id": "intensive",
+        "name": "Intensive",
+        "price": 259,
+        "description": "Fast-track dialect mastery with 1-on-1 coaching",
+        "features": ["Everything in Group", "3 private 1-on-1 sessions", "Custom pronunciation drills", "Lifetime access", "Priority support"]
+      }
+    ],
+    "reviews": [
+      { "name": "Sophie L.", "rating": 5, "text": "Nadia's energy is incredible. I had full conversations on my Egypt trip after just 8 sessions." }
+    ],
+    "createdAt": "2026-03-10"
+  },
+  {
+    "id": "9",
+    "title": "German for Beginners",
+    "language": "German",
+    "languageCode": "de",
+    "flag": "🇩🇪",
+    "level": "Beginner",
+    "format": "Live",
+    "description": "Build a solid German foundation with a focus on practical communication. Learn essential grammar, pronunciation, and vocabulary through interactive live sessions designed for complete beginners.",
+    "price": 149,
+    "rating": 4.8,
+    "reviewCount": 241,
+    "sessionCount": 12,
+    "hasMaterials": true,
+    "hasCertificate": true,
+    "featured": true,
+    "instructor": {
+      "name": "Lena Fischer",
+      "title": "Berlin-based German instructor and Goethe-Institut certified examiner"
+    },
+    "schedule": {
+      "days": ["Tue", "Thu"],
+      "time": "7:00 PM EST",
+      "startDate": "2026-07-08"
+    },
+    "packages": [
+      {
+        "id": "self-study",
+        "name": "Self-Study",
+        "price": 79,
+        "description": "Learn at your own pace with full recorded access",
+        "features": ["Full recorded session access", "PDF study materials", "Community forum", "3-month access"]
+      },
+      {
+        "id": "group",
+        "name": "Group",
+        "price": 149,
+        "description": "Live sessions with a small group of learners",
+        "features": ["Everything in Self-Study", "Live group sessions (2×/week)", "Certificate of completion", "Instructor Q&A", "1-year access"],
+        "popular": true
+      },
+      {
+        "id": "intensive",
+        "name": "Intensive",
+        "price": 279,
+        "description": "Accelerated learning with personal coaching",
+        "features": ["Everything in Group", "3 private 1-on-1 sessions", "Personalized feedback", "Lifetime access", "Priority support"]
+      }
+    ],
+    "reviews": [
+      { "name": "Mark B.", "rating": 5, "text": "Lena breaks down German grammar in a way that finally makes sense. Highly recommend for beginners." },
+      { "name": "Anna W.", "rating": 5, "text": "The live format keeps me accountable. I've learned more in 4 weeks than in a year of apps." }
+    ],
+    "createdAt": "2026-02-10"
+  },
+  {
+    "id": "10",
+    "title": "German Business Communication",
+    "language": "German",
+    "languageCode": "de",
+    "flag": "🇩🇪",
+    "level": "Intermediate",
+    "format": "Live + Recorded",
+    "description": "Master professional German for the modern workplace. Cover business correspondence, meetings, presentations, and negotiation tactics used in Germany, Austria, and Switzerland.",
+    "price": 249,
+    "rating": 4.7,
+    "reviewCount": 118,
+    "sessionCount": 10,
+    "hasMaterials": true,
+    "hasCertificate": true,
+    "featured": false,
+    "instructor": {
+      "name": "Thomas Bauer",
+      "title": "Executive German trainer with 12 years in corporate language coaching"
+    },
+    "schedule": {
+      "days": ["Mon", "Wed"],
+      "time": "6:00 AM EST",
+      "startDate": "2026-07-07"
+    },
+    "packages": [
+      {
+        "id": "self-study",
+        "name": "Self-Study",
+        "price": 129,
+        "description": "Recorded business German modules with professional templates",
+        "features": ["Full recorded session access", "Business German phrasebook", "Email & report templates", "3-month access"]
+      },
+      {
+        "id": "group",
+        "name": "Group",
+        "price": 249,
+        "description": "Live professional sessions with small cohort",
+        "features": ["Everything in Self-Study", "Live group sessions (2×/week)", "Certificate of completion", "Business case role-plays", "1-year access"],
+        "popular": true
+      },
+      {
+        "id": "intensive",
+        "name": "Intensive",
+        "price": 469,
+        "description": "Executive coaching for fast professional results",
+        "features": ["Everything in Group", "4 private coaching sessions", "CV & LinkedIn review in German", "Lifetime access", "Priority support"]
+      }
+    ],
+    "reviews": [
+      { "name": "David K.", "rating": 5, "text": "Thomas helped me land a job in Munich. The business vocabulary module is outstanding." },
+      { "name": "Laura P.", "rating": 4, "text": "Excellent structure. The recorded sessions are perfect for reviewing before meetings." }
+    ],
+    "createdAt": "2026-03-05"
+  },
+  {
+    "id": "11",
+    "title": "German C1 Advanced",
+    "language": "German",
+    "languageCode": "de",
+    "flag": "🇩🇪",
+    "level": "Advanced",
+    "format": "Live",
+    "description": "Reach near-native proficiency in German. Work on complex grammar, stylistic refinement, academic writing, and nuanced discussion of cultural and current affairs topics.",
+    "price": 229,
+    "rating": 4.9,
+    "reviewCount": 64,
+    "sessionCount": 10,
+    "hasMaterials": true,
+    "hasCertificate": true,
+    "featured": false,
+    "instructor": {
+      "name": "Sabine Richter",
+      "title": "PhD in German Linguistics, Humboldt University Berlin"
+    },
+    "schedule": {
+      "days": ["Sat"],
+      "time": "10:00 AM EST",
+      "startDate": "2026-07-12"
+    },
+    "packages": [
+      {
+        "id": "self-study",
+        "name": "Self-Study",
+        "price": 119,
+        "description": "Advanced recorded modules with reference materials",
+        "features": ["Full recorded session access", "Advanced grammar guide", "Curated reading list", "3-month access"]
+      },
+      {
+        "id": "group",
+        "name": "Group",
+        "price": 229,
+        "description": "Live seminars with a small advanced cohort",
+        "features": ["Everything in Self-Study", "Live weekly seminars", "Certificate of completion", "Essay review", "1-year access"],
+        "popular": true
+      },
+      {
+        "id": "intensive",
+        "name": "Intensive",
+        "price": 429,
+        "description": "Intensive coaching toward C1 certification",
+        "features": ["Everything in Group", "3 private coaching sessions", "C1 mock exam with feedback", "Lifetime access", "Priority support"]
+      }
+    ],
+    "reviews": [
+      { "name": "Felix J.", "rating": 5, "text": "Sabine's seminars are intellectually demanding in the best way. My writing has transformed." }
+    ],
+    "createdAt": "2026-04-01"
+  },
+  {
+    "id": "12",
+    "title": "English for Professionals",
+    "language": "English",
+    "languageCode": "en",
+    "flag": "🇬🇧",
+    "level": "Intermediate",
+    "format": "Live",
+    "description": "Elevate your professional English for the global workplace. Master business writing, meeting etiquette, presentation skills, and confident small talk with native-level clarity.",
+    "price": 189,
+    "rating": 4.8,
+    "reviewCount": 376,
+    "sessionCount": 10,
+    "hasMaterials": true,
+    "hasCertificate": true,
+    "featured": true,
+    "instructor": {
+      "name": "James Harrison",
+      "title": "Former BBC journalist and corporate English communications trainer"
+    },
+    "schedule": {
+      "days": ["Tue", "Fri"],
+      "time": "9:00 AM EST",
+      "startDate": "2026-07-08"
+    },
+    "packages": [
+      {
+        "id": "self-study",
+        "name": "Self-Study",
+        "price": 99,
+        "description": "Recorded modules and professional writing guides",
+        "features": ["Full recorded session access", "Business writing templates", "Pronunciation guides", "3-month access"]
+      },
+      {
+        "id": "group",
+        "name": "Group",
+        "price": 189,
+        "description": "Live sessions with professionals from around the world",
+        "features": ["Everything in Self-Study", "Live group sessions (2×/week)", "Certificate of completion", "Peer feedback exercises", "1-year access"],
+        "popular": true
+      },
+      {
+        "id": "intensive",
+        "name": "Intensive",
+        "price": 349,
+        "description": "Executive English coaching for career advancement",
+        "features": ["Everything in Group", "3 private 1-on-1 sessions", "Interview preparation", "Lifetime access", "Priority support"]
+      }
+    ],
+    "reviews": [
+      { "name": "Ji-Ho L.", "rating": 5, "text": "James helped me go from hesitant in meetings to leading them. Life-changing course." },
+      { "name": "Priya M.", "rating": 5, "text": "The business writing module alone is worth the price. My emails are completely transformed." }
+    ],
+    "createdAt": "2026-01-15"
+  },
+  {
+    "id": "13",
+    "title": "IELTS Exam Preparation",
+    "language": "English",
+    "languageCode": "en",
+    "flag": "🇬🇧",
+    "level": "Intermediate",
+    "format": "Recorded",
+    "description": "A complete IELTS prep course covering all four skills — Reading, Writing, Listening, and Speaking. Includes band-specific strategy guides and six full practice tests with model answers.",
+    "price": 129,
+    "rating": 4.8,
+    "reviewCount": 589,
+    "sessionCount": 24,
+    "hasMaterials": true,
+    "hasCertificate": false,
+    "featured": false,
+    "instructor": {
+      "name": "Catherine Moore",
+      "title": "IELTS examiner and test prep specialist with 10 years of experience"
+    },
+    "schedule": {
+      "days": [],
+      "time": "Self-paced",
+      "startDate": "2026-07-01"
+    },
+    "packages": [
+      {
+        "id": "self-study",
+        "name": "Self-Study",
+        "price": 69,
+        "description": "Core prep modules with 3-month access",
+        "features": ["Full recorded course access", "3 full practice tests", "Band-scoring guides", "3-month access"]
+      },
+      {
+        "id": "group",
+        "name": "Standard",
+        "price": 129,
+        "description": "Complete prep package with lifetime access",
+        "features": ["Everything in Self-Study", "Lifetime access", "6 full practice tests", "Model answer library"],
+        "popular": true
+      },
+      {
+        "id": "intensive",
+        "name": "Premium",
+        "price": 239,
+        "description": "Full prep with expert essay and speaking feedback",
+        "features": ["Everything in Standard", "2 live group mock sessions", "Writing essay graded feedback", "Speaking mock with feedback", "Priority support"]
+      }
+    ],
+    "reviews": [
+      { "name": "Yuna K.", "rating": 5, "text": "Scored 8.0 on my first attempt. The writing strategies alone are worth it." },
+      { "name": "Rafael S.", "rating": 5, "text": "Catherine's tips for the listening section helped me catch details I always missed." }
+    ],
+    "createdAt": "2026-01-08"
+  },
+  {
+    "id": "14",
+    "title": "American English Fluency",
+    "language": "English",
+    "languageCode": "en",
+    "flag": "🇺🇸",
+    "level": "Beginner",
+    "format": "Live + Recorded",
+    "description": "Build confident, natural-sounding American English from the ground up. Focus on pronunciation, intonation, everyday idioms, and the informal speech patterns used in real American conversations.",
+    "price": 149,
+    "rating": 4.7,
+    "reviewCount": 214,
+    "sessionCount": 14,
+    "hasMaterials": true,
+    "hasCertificate": false,
+    "featured": false,
+    "instructor": {
+      "name": "Rachel Davis",
+      "title": "Accent coach and ESL instructor based in New York"
+    },
+    "schedule": {
+      "days": ["Mon", "Wed"],
+      "time": "8:00 PM EST",
+      "startDate": "2026-07-07"
+    },
+    "packages": [
+      {
+        "id": "self-study",
+        "name": "Self-Study",
+        "price": 79,
+        "description": "Recorded lessons with pronunciation drills",
+        "features": ["Full recorded session access", "Pronunciation drill audio", "Idiom & slang guide", "3-month access"]
+      },
+      {
+        "id": "group",
+        "name": "Group",
+        "price": 149,
+        "description": "Live conversation practice with small group",
+        "features": ["Everything in Self-Study", "Live group sessions (2×/week)", "Conversation recordings to review", "1-year access"],
+        "popular": true
+      },
+      {
+        "id": "intensive",
+        "name": "Intensive",
+        "price": 279,
+        "description": "Personalized accent coaching with 1-on-1 sessions",
+        "features": ["Everything in Group", "3 private accent coaching sessions", "Before/after pronunciation recording", "Lifetime access", "Priority support"]
+      }
+    ],
+    "reviews": [
+      { "name": "Mei T.", "rating": 5, "text": "Rachel's intonation exercises are incredible. People tell me I sound like a local now." },
+      { "name": "Carlos V.", "rating": 4, "text": "Great course. The idiom sections are especially fun and surprisingly useful." }
+    ],
+    "createdAt": "2026-03-12"
+  },
+  {
+    "id": "15",
+    "title": "Mandarin Chinese for Beginners",
+    "language": "Chinese",
+    "languageCode": "zh",
+    "flag": "🇨🇳",
+    "level": "Beginner",
+    "format": "Live + Recorded",
+    "description": "Start your Mandarin journey with pinyin, tones, and the 600 most common words. Practical scenarios — greetings, shopping, travel, and dining — teach you to communicate from day one.",
+    "price": 169,
+    "rating": 4.8,
+    "reviewCount": 298,
+    "sessionCount": 16,
+    "hasMaterials": true,
+    "hasCertificate": true,
+    "featured": true,
+    "instructor": {
+      "name": "Li Wei",
+      "title": "Beijing native and HSK examiner with 9 years of teaching experience"
+    },
+    "schedule": {
+      "days": ["Tue", "Thu"],
+      "time": "8:00 PM EST",
+      "startDate": "2026-07-08"
+    },
+    "packages": [
+      {
+        "id": "self-study",
+        "name": "Self-Study",
+        "price": 89,
+        "description": "Recorded Mandarin lessons with tone training",
+        "features": ["Full recorded session access", "Pinyin & tone guide PDF", "Character stroke-order sheets", "3-month access"]
+      },
+      {
+        "id": "group",
+        "name": "Group",
+        "price": 169,
+        "description": "Live sessions with a small group of learners",
+        "features": ["Everything in Self-Study", "Live group sessions (2×/week)", "Certificate of completion", "Tone correction feedback", "1-year access"],
+        "popular": true
+      },
+      {
+        "id": "intensive",
+        "name": "Intensive",
+        "price": 319,
+        "description": "Immersive learning with personal coaching",
+        "features": ["Everything in Group", "3 private 1-on-1 sessions", "Character writing feedback", "Lifetime access", "Priority support"]
+      }
+    ],
+    "reviews": [
+      { "name": "Sam A.", "rating": 5, "text": "Li Wei's tone training finally clicked for me. I was terrified of tones, now they feel natural." },
+      { "name": "Hannah O.", "rating": 5, "text": "The live sessions are essential. Having a native speaker correct your tones in real time is invaluable." }
+    ],
+    "createdAt": "2026-02-05"
+  },
+  {
+    "id": "16",
+    "title": "HSK 3 Exam Preparation",
+    "language": "Chinese",
+    "languageCode": "zh",
+    "flag": "🇨🇳",
+    "level": "Intermediate",
+    "format": "Recorded",
+    "description": "A focused, structured HSK 3 prep course covering all 600 required vocabulary words, key grammar patterns, and listening strategies. Includes four full practice tests with detailed explanations.",
+    "price": 109,
+    "rating": 4.7,
+    "reviewCount": 183,
+    "sessionCount": 18,
+    "hasMaterials": true,
+    "hasCertificate": false,
+    "featured": false,
+    "instructor": {
+      "name": "Chen Jing",
+      "title": "HSK examiner and Mandarin teacher at Shanghai Language Institute"
+    },
+    "schedule": {
+      "days": [],
+      "time": "Self-paced",
+      "startDate": "2026-07-01"
+    },
+    "packages": [
+      {
+        "id": "self-study",
+        "name": "Self-Study",
+        "price": 59,
+        "description": "Core prep modules with 3-month access",
+        "features": ["Full recorded course access", "2 full practice tests", "Vocabulary flashcard deck", "3-month access"]
+      },
+      {
+        "id": "group",
+        "name": "Standard",
+        "price": 109,
+        "description": "Complete prep package with lifetime access",
+        "features": ["Everything in Self-Study", "Lifetime access", "4 full practice tests", "Detailed answer explanations"],
+        "popular": true
+      },
+      {
+        "id": "intensive",
+        "name": "Premium",
+        "price": 199,
+        "description": "Full prep with live review sessions",
+        "features": ["Everything in Standard", "2 live group review sessions", "Weak-area diagnostic report", "Priority support"]
+      }
+    ],
+    "reviews": [
+      { "name": "Owen T.", "rating": 5, "text": "Passed HSK 3 with a score of 285/300. The practice tests were nearly identical to the real exam." },
+      { "name": "Mia R.", "rating": 4, "text": "Very comprehensive. Chen Jing's explanations for tricky grammar points are crystal clear." }
+    ],
+    "createdAt": "2026-03-15"
+  },
+  {
+    "id": "17",
+    "title": "Business Mandarin",
+    "language": "Chinese",
+    "languageCode": "zh",
+    "flag": "🇨🇳",
+    "level": "Intermediate",
+    "format": "Live",
+    "description": "Mandarin for the professional context — negotiations, presentations, networking events, and formal correspondence. Ideal for business travelers, executives, and anyone working with Chinese partners.",
+    "price": 249,
+    "rating": 4.9,
+    "reviewCount": 97,
+    "sessionCount": 10,
+    "hasMaterials": true,
+    "hasCertificate": true,
+    "featured": false,
+    "instructor": {
+      "name": "Michael Zhang",
+      "title": "Former Alibaba executive and corporate Mandarin trainer based in Shanghai"
+    },
+    "schedule": {
+      "days": ["Mon", "Thu"],
+      "time": "7:00 AM EST",
+      "startDate": "2026-07-07"
+    },
+    "packages": [
+      {
+        "id": "self-study",
+        "name": "Self-Study",
+        "price": 129,
+        "description": "Recorded business Mandarin modules",
+        "features": ["Full recorded session access", "Business Mandarin phrasebook", "WeChat & email templates", "3-month access"]
+      },
+      {
+        "id": "group",
+        "name": "Group",
+        "price": 249,
+        "description": "Live professional sessions with small cohort",
+        "features": ["Everything in Self-Study", "Live group sessions (2×/week)", "Certificate of completion", "Business negotiation role-plays", "1-year access"],
+        "popular": true
+      },
+      {
+        "id": "intensive",
+        "name": "Intensive",
+        "price": 469,
+        "description": "Executive coaching for high-stakes business contexts",
+        "features": ["Everything in Group", "4 private coaching sessions", "Business card & presentation review", "Lifetime access", "Priority support"]
+      }
+    ],
+    "reviews": [
+      { "name": "Brian L.", "rating": 5, "text": "Michael's insider knowledge of Chinese business culture is worth every penny. Closed a deal in Shanghai after this course." }
+    ],
+    "createdAt": "2026-04-10"
+  }
+]

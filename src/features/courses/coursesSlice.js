@@ -75,6 +75,11 @@ export const selectFilteredCourses = createSelector(
     result = result.filter(
       (c) => c.price >= filters.priceRange[0] && c.price <= filters.priceRange[1]
     )
+    if (filters.schedule === "self-paced") result = result.filter((c) => c.schedule.days.length === 0)
+    else if (filters.schedule === "weekdays")
+      result = result.filter((c) => c.schedule.days.some((d) => ["Mon", "Tue", "Wed", "Thu", "Fri"].includes(d)))
+    else if (filters.schedule === "weekends")
+      result = result.filter((c) => c.schedule.days.some((d) => ["Sat", "Sun"].includes(d)))
 
     if (sort === "popular") return [...result].sort((a, b) => b.reviewCount - a.reviewCount)
     if (sort === "price-asc") return [...result].sort((a, b) => a.price - b.price)

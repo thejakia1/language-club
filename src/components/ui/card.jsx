@@ -10,8 +10,8 @@ function CardHeader({ className, ...props }) {
   return <div className={cn("flex flex-col space-y-1.5 p-6", className)} {...props} />
 }
 
-function CardTitle({ className, ...props }) {
-  return <h3 className={cn("text-2xl font-semibold leading-none tracking-tight", className)} {...props} />
+function CardTitle({ className, children, ...props }) {
+  return <h3 className={cn("text-2xl font-semibold leading-none tracking-tight", className)} {...props}>{children}</h3>
 }
 
 function CardDescription({ className, ...props }) {

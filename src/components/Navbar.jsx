@@ -38,13 +38,15 @@ export default function Navbar() {
           </Button>
         </div>
 
-        <button
-          className="md:hidden p-2 rounded-md text-muted-foreground hover:text-foreground transition-colors"
+        <Button
+          variant="ghost"
+          size="icon"
+          className="md:hidden"
           onClick={() => setOpen(!open)}
           aria-label="Toggle menu"
         >
           {open ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
-        </button>
+        </Button>
       </div>
 
       {open && (

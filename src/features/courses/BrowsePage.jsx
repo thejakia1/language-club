@@ -15,6 +15,14 @@ import {
 import CourseCard from "./CourseCard"
 import Filters from "./Filters"
 import { Input } from "../../components/ui/input"
+import { Button } from "../../components/ui/button"
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "../../components/ui/select"
 
 const SORT_OPTIONS = [
   { value: "popular", label: "Most Popular" },
@@ -75,44 +83,47 @@ export default function BrowsePage() {
             />
           </div>
 
-          <select
-            value={sort}
-            onChange={(e) => dispatch(setSort(e.target.value))}
-            className="h-10 rounded-md border border-input bg-background px-3 text-sm text-foreground focus:outline-none focus:ring-2 focus:ring-ring"
-          >
-            {SORT_OPTIONS.map((o) => (
-              <option key={o.value} value={o.value}>
-                {o.label}
-              </option>
-            ))}
-          </select>
+          <Select value={sort} onValueChange={(v) => dispatch(setSort(v))}>
+            <SelectTrigger className="w-44">
+              <SelectValue />
+            </SelectTrigger>
+            <SelectContent>
+              {SORT_OPTIONS.map((o) => (
+                <SelectItem key={o.value} value={o.value}>
+                  {o.label}
+                </SelectItem>
+              ))}
+            </SelectContent>
+          </Select>
 
           {/* Mobile filter toggle */}
-          <button
+          <Button
+            variant="outline"
             onClick={() => setShowMobileFilters((v) => !v)}
-            className="lg:hidden inline-flex items-center gap-1.5 h-10 px-3 rounded-md border border-input bg-background text-sm font-medium hover:bg-muted transition-colors"
+            className="lg:hidden gap-1.5"
           >
             <SlidersHorizontal className="h-4 w-4" />
             Filters
             {activeFilterCount > 0 && (
-              <span className="ml-0.5 inline-flex items-center justify-center h-5 w-5 rounded-full bg-primary text-primary-foreground text-xs font-semibold">
+              <span className="inline-flex items-center justify-center h-5 w-5 rounded-full bg-primary text-primary-foreground text-xs font-semibold">
                 {activeFilterCount}
               </span>
             )}
-          </button>
+          </Button>
         </div>
 
         {/* Mobile filter panel */}
         {showMobileFilters && (
           <div className="lg:hidden mb-6 rounded-xl border bg-card p-5 shadow-sm">
-            <div className="flex items-center justify-between mb-4">
-              <p className="font-semibold text-sm">Filters</p>
-              <button
+            <div className="flex items-center justify-end mb-4">
+              <Button
+                variant="ghost"
+                size="icon"
                 onClick={() => setShowMobileFilters(false)}
-                className="text-muted-foreground hover:text-foreground"
+                className="h-7 w-7"
               >
                 <X className="h-4 w-4" />
-              </button>
+              </Button>
             </div>
             <Filters />
           </div>
@@ -142,12 +153,9 @@ export default function BrowsePage() {
                 <p className="text-sm text-muted-foreground mb-6 max-w-xs">
                   Try adjusting your filters or search term to find what you're looking for.
                 </p>
-                <button
-                  onClick={() => dispatch(resetFilters())}
-                  className="text-sm text-primary hover:underline font-medium"
-                >
+                <Button variant="link" className="p-0 h-auto" onClick={() => dispatch(resetFilters())}>
                   Clear all filters
-                </button>
+                </Button>
               </div>
             )}
           </div>

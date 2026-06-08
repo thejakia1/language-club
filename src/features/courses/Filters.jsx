@@ -1,6 +1,7 @@
 import { useAppDispatch, useAppSelector } from "../../app/hooks"
 import { setFilter, resetFilters, selectFilters } from "./coursesSlice"
-import { cn } from "../../lib/utils"
+import { Button } from "../../components/ui/button"
+import { Slider } from "../../components/ui/slider"
 
 const LANGUAGES = ["Spanish", "French", "Japanese", "Arabic", "German", "English", "Chinese"]
 const LEVELS = ["Beginner", "Intermediate", "Advanced"]
@@ -30,18 +31,15 @@ function PillGroup({ options, active, onToggle }) {
         const label = typeof opt === "string" ? opt : opt.label
         const isActive = active === value
         return (
-          <button
+          <Button
             key={value}
+            variant={isActive ? "default" : "outline"}
+            size="sm"
+            className="rounded-full h-7 text-xs px-3"
             onClick={() => onToggle(isActive ? "" : value)}
-            className={cn(
-              "px-3 py-1 rounded-full text-xs font-medium border transition-colors",
-              isActive
-                ? "bg-primary text-primary-foreground border-primary"
-                : "bg-background text-foreground border-border hover:border-primary/50 hover:bg-muted/50"
-            )}
           >
             {label}
-          </button>
+          </Button>
         )
       })}
     </div>
@@ -68,12 +66,14 @@ export default function Filters() {
       <div className="flex items-center justify-between">
         <p className="font-semibold text-sm">Filters</p>
         {hasActiveFilters && (
-          <button
+          <Button
+            variant="link"
+            size="sm"
+            className="p-0 h-auto text-xs"
             onClick={() => dispatch(resetFilters())}
-            className="text-xs text-primary hover:underline"
           >
             Reset all
-          </button>
+          </Button>
         )}
       </div>
 
@@ -110,18 +110,15 @@ export default function Filters() {
       </FilterSection>
 
       <FilterSection label={`Max price — $${filters.priceRange[1]}`}>
-        <input
-          type="range"
-          min="0"
-          max="500"
-          step="25"
-          value={filters.priceRange[1]}
-          onChange={(e) =>
-            handleFilter("priceRange", [0, parseInt(e.target.value)])
-          }
-          className="w-full accent-primary"
+        <Slider
+          min={0}
+          max={500}
+          step={25}
+          value={[filters.priceRange[1]]}
+          onValueChange={([val]) => handleFilter("priceRange", [0, val])}
+          className="mt-2"
         />
-        <div className="flex justify-between text-xs text-muted-foreground mt-1">
+        <div className="flex justify-between text-xs text-muted-foreground mt-2">
           <span>$0</span>
           <span>$500</span>
         </div>
